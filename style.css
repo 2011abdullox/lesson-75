@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+.dark {
+  background: #111;
+  color: white;
+}
+
+.top {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 250px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li span {
+  margin-right: 10px;
+}
